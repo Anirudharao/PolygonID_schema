@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/0xPolygonID/issuer-node/main/docs/examples/schemas/json-ld/exampleString.json-ld",
-        "jsonSchema": "https://raw.githubusercontent.com/0xPolygonID/issuer-node/main/docs/examples/schemas/json/exampleString.json"
+        "jsonLdContext": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/key_schema_ld.jsonld",
+        "jsonSchema": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/kyp_schema.json"
       }
     },
     "required": [
@@ -106,7 +106,6 @@
         "type": "object",
         "required": [
           "id",
-        //   "role"
           "Aadhaar",
           "Username"
         ],
@@ -116,13 +115,10 @@
             "type": "string",
             "format": "uri"
           },
-        //   "role": {
-        //     "type": "string"
-        //   }
-        "Aadhaar": {
+        "identity": {
             "type": "integer"
-          }
-          "Username": {
+          },
+          "userName": {
             "type": "string"
           }
         }
