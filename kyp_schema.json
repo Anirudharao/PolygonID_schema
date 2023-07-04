@@ -3,7 +3,7 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/kyp_schema_ld.jsonld",
+        "jsonLdContext": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/kyp_schema_ld.json-ld",
         "jsonSchema": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/kyp_schema.json"
       }
     },
@@ -106,8 +106,8 @@
         "type": "object",
         "required": [
           "id",
-          "Aadhaar",
-          "Username"
+          "identity",
+          "userName"
         ],
         "properties": {
           "id": {

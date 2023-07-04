@@ -7,7 +7,6 @@
         "type": "@type",
         "KYP": {
           "@id": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/kyp_schema_ld.json-ld#KYP",
-
           "@context": {
             "@version": 1.1,
             "@protected": true,
@@ -24,7 +23,3 @@
       }
     ]
   }
-
-  
-//   https://raw.githubusercontent.com/0xPolygonID/issuer-node/main/docs/examples/json-ld/exampleString.json-ld#RoleCredential
-//  https://raw.githubusercontent.com/0xPolygonID/issuer-node/main/docs/examples/schemas/json-ld/exampleString.json-ld
