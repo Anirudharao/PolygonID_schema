@@ -14,7 +14,11 @@
             "type": "@type",
             "vocab": "https://github.com/0xPolygonID/sh-id-platform/blob/main/docs/examples/schemas/vocab/exampleEmployee.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
-            "role": {
+            "identity": {
+              "@id": "vocab:salary",
+              "@type": "xsd:integer"
+            },
+            "userName": {
               "@id": "vocab:role",
               "@type": "xsd:string"
             }
