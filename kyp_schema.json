@@ -3,7 +3,7 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/kyp_schema_ld.jsonld",
+        "jsonLdContext": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/kyp_schema.jsonld",
         "jsonSchema": "https://raw.githubusercontent.com/Anirudharao/PolygonID_schema/main/kyp_schema.json"
       }
     },
