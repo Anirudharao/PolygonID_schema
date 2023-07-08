@@ -116,7 +116,7 @@
             "format": "uri"
           },
         "identity": {
-            "type": "integer"
+            "type": "string"
           },
           "userName": {
             "type": "string"

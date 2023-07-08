@@ -16,7 +16,7 @@
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "identity": {
               "@id": "vocab:salary",
-              "@type": "xsd:integer"
+              "@type": "xsd:string"
             },
             "userName": {
               "@id": "vocab:role",
